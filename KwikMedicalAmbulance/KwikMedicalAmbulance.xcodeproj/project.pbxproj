@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		B7C85FE82CDBB8A000280443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7C85FCF2CDBB89F00280443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7C85FD62CDBB89F00280443;
+			remoteInfo = KwikMedicalAmbulance;
+		};
+		B7C85FF22CDBB8A000280443 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7C85FCF2CDBB89F00280443 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7C85FD62CDBB89F00280443;
+			remoteInfo = KwikMedicalAmbulance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7C85FD72CDBB89F00280443 /* KwikMedicalAmbulance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KwikMedicalAmbulance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C85FE72CDBB8A000280443 /* KwikMedicalAmbulanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikMedicalAmbulanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C85FF12CDBB8A000280443 /* KwikMedicalAmbulanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KwikMedicalAmbulanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B7C85FD92CDBB89F00280443 /* KwikMedicalAmbulance */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KwikMedicalAmbulance;
+			sourceTree = "<group>";
+		};
+		B7C85FEA2CDBB8A000280443 /* KwikMedicalAmbulanceTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KwikMedicalAmbulanceTests;
+			sourceTree = "<group>";
+		};
+		B7C85FF42CDBB8A000280443 /* KwikMedicalAmbulanceUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KwikMedicalAmbulanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C85FD42CDBB89F00280443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FE42CDBB8A000280443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FEE2CDBB8A000280443 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C85FCE2CDBB89F00280443 = {
+			isa = PBXGroup;
+			children = (
+				B7C85FD92CDBB89F00280443 /* KwikMedicalAmbulance */,
+				B7C85FEA2CDBB8A000280443 /* KwikMedicalAmbulanceTests */,
+				B7C85FF42CDBB8A000280443 /* KwikMedicalAmbulanceUITests */,
+				B7C85FD82CDBB89F00280443 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C85FD82CDBB89F00280443 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C85FD72CDBB89F00280443 /* KwikMedicalAmbulance.app */,
+				B7C85FE72CDBB8A000280443 /* KwikMedicalAmbulanceTests.xctest */,
+				B7C85FF12CDBB8A000280443 /* KwikMedicalAmbulanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C85FD62CDBB89F00280443 /* KwikMedicalAmbulance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C85FFB2CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulance" */;
+			buildPhases = (
+				B7C85FD32CDBB89F00280443 /* Sources */,
+				B7C85FD42CDBB89F00280443 /* Frameworks */,
+				B7C85FD52CDBB89F00280443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B7C85FD92CDBB89F00280443 /* KwikMedicalAmbulance */,
+			);
+			name = KwikMedicalAmbulance;
+			packageProductDependencies = (
+			);
+			productName = KwikMedicalAmbulance;
+			productReference = B7C85FD72CDBB89F00280443 /* KwikMedicalAmbulance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7C85FE62CDBB8A000280443 /* KwikMedicalAmbulanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C85FFE2CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulanceTests" */;
+			buildPhases = (
+				B7C85FE32CDBB8A000280443 /* Sources */,
+				B7C85FE42CDBB8A000280443 /* Frameworks */,
+				B7C85FE52CDBB8A000280443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C85FE92CDBB8A000280443 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7C85FEA2CDBB8A000280443 /* KwikMedicalAmbulanceTests */,
+			);
+			name = KwikMedicalAmbulanceTests;
+			packageProductDependencies = (
+			);
+			productName = KwikMedicalAmbulanceTests;
+			productReference = B7C85FE72CDBB8A000280443 /* KwikMedicalAmbulanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7C85FF02CDBB8A000280443 /* KwikMedicalAmbulanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C860012CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulanceUITests" */;
+			buildPhases = (
+				B7C85FED2CDBB8A000280443 /* Sources */,
+				B7C85FEE2CDBB8A000280443 /* Frameworks */,
+				B7C85FEF2CDBB8A000280443 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C85FF32CDBB8A000280443 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B7C85FF42CDBB8A000280443 /* KwikMedicalAmbulanceUITests */,
+			);
+			name = KwikMedicalAmbulanceUITests;
+			packageProductDependencies = (
+			);
+			productName = KwikMedicalAmbulanceUITests;
+			productReference = B7C85FF12CDBB8A000280443 /* KwikMedicalAmbulanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C85FCF2CDBB89F00280443 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					B7C85FD62CDBB89F00280443 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					B7C85FE62CDBB8A000280443 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B7C85FD62CDBB89F00280443;
+					};
+					B7C85FF02CDBB8A000280443 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = B7C85FD62CDBB89F00280443;
+					};
+				};
+			};
+			buildConfigurationList = B7C85FD22CDBB89F00280443 /* Build configuration list for PBXProject "KwikMedicalAmbulance" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7C85FCE2CDBB89F00280443;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B7C85FD82CDBB89F00280443 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C85FD62CDBB89F00280443 /* KwikMedicalAmbulance */,
+				B7C85FE62CDBB8A000280443 /* KwikMedicalAmbulanceTests */,
+				B7C85FF02CDBB8A000280443 /* KwikMedicalAmbulanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C85FD52CDBB89F00280443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FE52CDBB8A000280443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FEF2CDBB8A000280443 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C85FD32CDBB89F00280443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FE32CDBB8A000280443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C85FED2CDBB8A000280443 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7C85FE92CDBB8A000280443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C85FD62CDBB89F00280443 /* KwikMedicalAmbulance */;
+			targetProxy = B7C85FE82CDBB8A000280443 /* PBXContainerItemProxy */;
+		};
+		B7C85FF32CDBB8A000280443 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C85FD62CDBB89F00280443 /* KwikMedicalAmbulance */;
+			targetProxy = B7C85FF22CDBB8A000280443 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B7C85FF92CDBB8A000280443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7C85FFA2CDBB8A000280443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C85FFC2CDBB8A000280443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KwikMedicalAmbulance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7C85FFD2CDBB8A000280443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KwikMedicalAmbulance/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7C85FFF2CDBB8A000280443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwikMedicalAmbulance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KwikMedicalAmbulance";
+			};
+			name = Debug;
+		};
+		B7C860002CDBB8A000280443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KwikMedicalAmbulance.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KwikMedicalAmbulance";
+			};
+			name = Release;
+		};
+		B7C860022CDBB8A000280443 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KwikMedicalAmbulance;
+			};
+			name = Debug;
+		};
+		B7C860032CDBB8A000280443 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JoshMendez.KwikMedicalAmbulanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KwikMedicalAmbulance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C85FD22CDBB89F00280443 /* Build configuration list for PBXProject "KwikMedicalAmbulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C85FF92CDBB8A000280443 /* Debug */,
+				B7C85FFA2CDBB8A000280443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C85FFB2CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C85FFC2CDBB8A000280443 /* Debug */,
+				B7C85FFD2CDBB8A000280443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C85FFE2CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C85FFF2CDBB8A000280443 /* Debug */,
+				B7C860002CDBB8A000280443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C860012CDBB8A000280443 /* Build configuration list for PBXNativeTarget "KwikMedicalAmbulanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C860022CDBB8A000280443 /* Debug */,
+				B7C860032CDBB8A000280443 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C85FCF2CDBB89F00280443 /* Project object */;
+}
